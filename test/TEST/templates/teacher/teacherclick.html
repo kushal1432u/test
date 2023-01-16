@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <style media="screen">
+    .jumbotron {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      /* background-image: url('https://cdn.pixabay.com/photo/2015/10/29/14/39/web-1012469_1280.jpg'); */
+      background-color: white;
+    }
+
+    .jumbotron h1 {
+      text-align: center;
+    }
+
+    
+
+  </style>
+
+</head>
+
+<body>
+
+  {% include "quiz/navbar.html" %}
+  <br><br>
+  <div class="jumbotron" style="margin-bottom:0px;"><br><br>
+    <h1 class="display-4 text-black">Hello, Teacher</h1>
+    <p class="lead text-black">Welcome to Test</p>
+    <hr class="my-4">
+    <p class="text-black">You can access various features after Login.</p>
+    <p class="lead"><br><br><br><br>
+      <a class="btn btn-dark btn-lg"  href="teachersignup" role="button">Create Your Account</a>
+      <a class="btn btn-dark btn-lg" href="teacherlogin" role="button">Login</a>
+    </p>
+    <br><br><br><br><br><br>
+  </div>
+ 
+</body>
+
+</html>
